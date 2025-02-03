@@ -1,0 +1,2 @@
+Para poder comprobar la normativa PEP8 mediante pylint
+entrar al directorio P1 en la terminal y ejecutar el comando Poetry shell
