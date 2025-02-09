@@ -1,0 +1,16 @@
+Notas para ejecutar la tarea:
+1)entrar a la carpeta(carpeta actual donde se encunetra este archivo) y poner el comando:
+    poetry shell 
+ este comando activara el entorno virtual donde esta instalado Flake8 y pep8
+2) en la tarminal de la carpeta actual ejecutar:
+    poetry run pylint compute_sales.py
+Esto ejecutara pylint para poder revisar PEP8
+3)en la tarminal de la carpeta actual ejecutar:
+    poetry run Flake8 compute_sales.py
+4)Vamos a porbar nuestro codigo con los ejemplos de T1 ejecutando el comando:
+    python compute_sales.py TC1/priceCatalogue.json TC1/salesRecord.json
+5)Vamos a porbar nuestro codigo con los ejemplos de T2 ejecutando el comando:
+    python compute_sales.py TC1/priceCatalogue.json TC2/salesRecord.json
+6)Vamos a porbar nuestro codigo con los ejemplos de T3 ejecutando el comando:
+    python compute_sales.py TC1/priceCatalogue.json TC3/salesRecord.json
+Notas: Despeus d ecada ejecuación se guarda el resultado en el archivo de texto "SalesResults.txt" y se crea un CSV "ProductList.csv" con la inofmracion del producot,precio,cantidad y precio total.
