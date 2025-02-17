@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "a01794708-a6-2"
+version = "0.1.0"
+description = ""
+authors = ["juanhur <juan.jo98@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "a01794708_a6"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pylint = "^3.3.4"
+flake8 = "^7.1.1"
+coverage = "^7.6.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
